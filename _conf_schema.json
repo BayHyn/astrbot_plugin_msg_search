@@ -1,0 +1,14 @@
+{
+    "per_msg_count": {
+        "description": "每轮获取的群消息数量",
+        "type": "int",
+        "hint": "每轮获取这么多的消息，从这些消息中检测目标消息",
+        "default": 200
+    },
+    "max_query_rounds": {
+        "description": "获取群消息的最大轮数",
+        "type": "int",
+        "hint": "当达到最大轮数时，强制停止轮询。此处仅为默认值，输入命令时可指定查询轮数",
+        "default": 10
+    }
+}
